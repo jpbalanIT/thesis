@@ -1,9 +1,22 @@
-void setup() {
-  // put your setup code here, to run once:
+/*
+ * File > Examples > 01. Basics > Blink
+ * 
+ * Turns an LED on for one second, then off for one second, repeatedly.
+*/
 
+// Defing variables
+const int myLED = 13;
+
+//  the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(myLED, OUTPUT);
 }
 
+// the loop function runs over and over again forever
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  digitalWrite(myLED, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                 // wait for a second
+  digitalWrite(myLED, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                 // wait for a second
 }
