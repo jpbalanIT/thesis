@@ -17,6 +17,7 @@ Para la elaboración de este proyecto se utilizaron distintos dispositivos elect
 1. Curso de [INNOVA DOMOTICS](https://www.youtube.com/watch?v=2eBXHU99B0s&list=PLZHVfZzF2DYJeLXXxz6YtpBj4u7FoGPWN&index=1).
 2. Curso de [Sergio A. Castaño Giraldo](https://www.youtube.com/watch?v=RxIgT5uhSxw&list=PLF-qcfymUY4W3NrcHpmm5ersLcLYIOic3&index=3&t=1s).
 
+06 Arduino Desde Cero - Curso - Configuración de Pines como entradas y salidas
 
 
 ## Complementos Para Desarrollo
