@@ -18,35 +18,35 @@ Para la elaboración de este proyecto se utilizaron distintos dispositivos elect
 
 
 ## Complementos Para Desarrollo
-###### Tinkercad
+#### Tinkercad
 * [Tinkercad](https://www.tinkercad.com/) es una aplicación web gratuita para diseño 3D, electrónica y codificación en la que confían más de 50 millones de personas de todo el mundo. [Inicio de Sesión](https://www.tinkercad.com/things/fmD3PguIeIU-incredible-trug/editel).
 
 
-###### Proteus
+#### Proteus
 The Proteus Design Suite combines ease of use with a powerful feature set to enable the rapid design, test and layout of professional printed circuit boards.
 
 * [Video Tutorial](https://www.youtube.com/watch?v=PdKL0D908WQ)
 * [Página de Descarga](https://getintopc.com/softwares/electronics/proteus-8-6-professional-free-download/)
 
 
-###### Agregar Arduino UNO a Proteus
+#### Agregar Arduino UNO a Proteus
 * [Video Tutorial](https://www.youtube.com/watch?v=FpnbEE2_Dio)
 * [Página de Descarga](https://controlautomaticoeducacion.com/arduino/)
 
 
 
 ## Proyectos de Ejemplo
-###### Proyecto de ejemplo - Blink (Encender una LED)
+#### Proyecto de ejemplo - Blink (Encender una LED)
 [06 Arduino Desde Cero - Curso - Configuración de Pines como entradas y salidas](https://www.youtube.com/watch?v=RJmtwHeP0Ko&list=PLZHVfZzF2DYJeLXXxz6YtpBj4u7FoGPWN&index=5)
-Para mayor información ver ir a la carpeta de blink, [aquí](https://github.com/jpbalanIT/thesis/tree/main/thesis/arduino/projects/blink/code.c).
+Para mayor información ver ir a la carpeta de blink, [aquí](thesis/tree/main/thesis/arduino/projects/blink/code.c).
 - Arduino Uno Original
 - LED
 
-###### Lector de Infrarrojo
+#### Lector de Infrarrojo
 [Arduino desde cero en Español - Capítulo 26 - Receptor Infrarrojo KY-022 + LED RGB (lector códigos)](https://www.youtube.com/watch?v=gPmsGyOuowI)
 [Código fuente](https://github.com/bitwiseAr/Curso-Arduino-desde-cero/blob/master/Capitulo26/Capitulo26-Programa1.txt)
 [Tutorial de lectura de infrarrojo y hexadecimal de ejemplo](https://naylampmechatronics.com/blog/36_tutorial-arduino-y-control-remoto-infrarrojo.html)
-Para mayor información ver ir a la carpeta de lectura de infrarrojo, [aquí](https://github.com/jpbalanIT/thesis/tree/main/thesis/arduino/projects/infrarrojo/code.c).
+Para mayor información ver ir a la carpeta de lectura de infrarrojo, [aquí](thesis/tree/main/thesis/arduino/projects/infrarrojo/code.c).
 - Arduino Uno Original
 - Infrarrojo Receptor Modelo KY-022
 

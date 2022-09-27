@@ -1,27 +1,25 @@
 /*
- * Lector de Infrarrojo
- * https://naylampmechatronics.com/blog/36_tutorial-arduino-y-control-remoto-infrarrojo.html
- * https://www.youtube.com/watch?v=gPmsGyOuowI
- * https://github.com/bitwiseAr/Curso-Arduino-desde-cero/blob/master/Capitulo26/Capitulo26-Programa1.txt
- * https://github.com/bitwiseAr/Curso-Arduino-desde-cero/tree/master/Capitulo26
- * https://github.com/bitwiseAr/Curso-Arduino-desde-cero
+ * File > Examples > 01. Basics > Blink
+ * 
+ * Turns an LED on for one second, then off for one second, repeatedly.
 */
 
-#include <IRremote.h>    // importa libreria IRremote
+// Defing variables
+const int myLED = 13;
 
-int SENSOR = 11;    // sensor KY-022 a pin digital 11  
-IRrecv irrecv(SENSOR);    // establece al 11 para objeto irrecv
-decode_results codigo;    // crea objeto codigo de la clase decode_results
+//  the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(myLED, OUTPUT);
+}
 
-void setup() { 
-  Serial.begin(9600);     // inicializa comunicacion serie a 9600 bps
-  irrecv.enableIRIn();    // inicializa recepcion de datos
-} 
-
-void loop() { 
-  if (irrecv.decode(&codigo)) {   // si existen datos ya decodificados
-    Serial.println(codigo.value, HEX);  // imprime valor en hexadecimal en monitor
-    irrecv.resume();      // resume la adquisicion de datos
-  }
-  delay (100);        // breve demora de 100 ms.
+// the loop function runs over and over again forever
+void loop() {
+  Serial.print("test");
+  digitalWrite(myLED, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                 // wait for a second
+  Serial.print("high led");
+  digitalWrite(myLED, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                 // wait for a second
+  Serial.print("high led");
 }
