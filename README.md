@@ -1,23 +1,20 @@
-# thesis
+# Thesis
 Control inteligente para la conectividad con dispositivos de entretenimiento para el hogar para transmitir instrucciones de voz por medio del asistente Alexa
 
 ## Sensores Y Complementos Utilizados Dentro De Este Proyecto
 Para la elaboración de este proyecto se utilizaron distintos dispositivos electrónicos y sensores los cuales se enlistan a continuación:
 
-- Arduino Uno Original
-- LED Infrarrojo Emisor
-- Infrarrojo Receptor Modelo
-    FC-051
-- Chip de Wifi
-    ESP8266
+- [Arduino Uno Original](https://uelectronics.com/producto/arduino-ethernet-shield-w-5100/)
+- Infrarrojo Receptor Modelo [KY-022](https://uelectronics.com/producto/sensor-receptor-infrarrojo-ir-modulo-ky-022/)
+- [LED Infrarrojo Emisor](https://www.amazon.com/-/es/Adafruit-Ultrabrillante-IR-LED-25-unidades/dp/B00ULB0U44/ref=sr_1_3?__mk_es_US=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1JVWEFI95R13B&keywords=infrared+led&qid=1664252947&sprefix=led+infrared%2Caps%2C117&sr=8-3&language=en_US)
+- Sensor Infrarrojo Modelo [FC-051](https://uelectronics.com/producto/fc-51-sensor-de-obstaculos-reflectivo-infrarojo/#:~:text=El%20M%C3%B3dulo%20Sensor%20De%20Obst%C3%A1culos%20Reflectivo%20Infrarrojo%20FC%2D51%20es,obst%C3%A1culo%20en%20la%20parte%20frontal)
+- Chip de [Wifi ESP8266](https://uelectronics.com/producto/esp-01s-modulo-wifi-esp8266/)
 
 
 
 ## Cursos de Arduino
 1. Curso de [INNOVA DOMOTICS](https://www.youtube.com/watch?v=2eBXHU99B0s&list=PLZHVfZzF2DYJeLXXxz6YtpBj4u7FoGPWN&index=1).
 2. Curso de [Sergio A. Castaño Giraldo](https://www.youtube.com/watch?v=RxIgT5uhSxw&list=PLF-qcfymUY4W3NrcHpmm5ersLcLYIOic3&index=3&t=1s).
-
-06 Arduino Desde Cero - Curso - Configuración de Pines como entradas y salidas
 
 
 ## Complementos Para Desarrollo
@@ -39,9 +36,19 @@ The Proteus Design Suite combines ease of use with a powerful feature set to ena
 
 
 ## Proyectos de Ejemplo
+###### Proyecto de ejemplo - Blink (Encender una LED)
+[06 Arduino Desde Cero - Curso - Configuración de Pines como entradas y salidas](https://www.youtube.com/watch?v=RJmtwHeP0Ko&list=PLZHVfZzF2DYJeLXXxz6YtpBj4u7FoGPWN&index=5)
+Para mayor información ver ir a la carpeta de blink, [aquí](https://github.com/jpbalanIT/thesis/tree/main/thesis/arduino/projects/blink/code.c).
+- Arduino Uno Original
+- LED
+
 ###### Lector de Infrarrojo
 [Arduino desde cero en Español - Capítulo 26 - Receptor Infrarrojo KY-022 + LED RGB (lector códigos)](https://www.youtube.com/watch?v=gPmsGyOuowI)
-
+[Código fuente](https://github.com/bitwiseAr/Curso-Arduino-desde-cero/blob/master/Capitulo26/Capitulo26-Programa1.txt)
+[Tutorial de lectura de infrarrojo y hexadecimal de ejemplo](https://naylampmechatronics.com/blog/36_tutorial-arduino-y-control-remoto-infrarrojo.html)
+Para mayor información ver ir a la carpeta de lectura de infrarrojo, [aquí](https://github.com/jpbalanIT/thesis/tree/main/thesis/arduino/projects/infrarrojo/code.c).
+- Arduino Uno Original
+- Infrarrojo Receptor Modelo KY-022
 
 ###### Como Escribir un Readme en GitHub
 * Puedes encontrar todas las etiquetas, estilos y más en esta página de documentación a [GitHub.Readme](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text).

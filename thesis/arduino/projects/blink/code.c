@@ -1,3 +1,12 @@
+/*
+ * Lector de Infrarrojo
+ * https://naylampmechatronics.com/blog/36_tutorial-arduino-y-control-remoto-infrarrojo.html
+ * https://www.youtube.com/watch?v=gPmsGyOuowI
+ * https://github.com/bitwiseAr/Curso-Arduino-desde-cero/blob/master/Capitulo26/Capitulo26-Programa1.txt
+ * https://github.com/bitwiseAr/Curso-Arduino-desde-cero/tree/master/Capitulo26
+ * https://github.com/bitwiseAr/Curso-Arduino-desde-cero
+*/
+
 #include <IRremote.h>    // importa libreria IRremote
 
 int SENSOR = 11;    // sensor KY-022 a pin digital 11  
