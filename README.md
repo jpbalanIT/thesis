@@ -38,7 +38,7 @@ The Proteus Design Suite combines ease of use with a powerful feature set to ena
 ## Proyectos de Ejemplo
 #### Proyecto de ejemplo - Blink (Encender una LED)
 [06 Arduino Desde Cero - Curso - Configuración de Pines como entradas y salidas](https://www.youtube.com/watch?v=RJmtwHeP0Ko&list=PLZHVfZzF2DYJeLXXxz6YtpBj4u7FoGPWN&index=5)
-Para mayor información ver ir a la carpeta de blink, [aquí](https://github.com/jpbalanIT/thesis/tree/main/thesis/arduino/projects/blink/code.c).
+Para mayor información ver ir a la carpeta de blink, [aquí](https://github.com/jpbalanIT/thesis/blob/main/thesis/arduino/projects/1-blink/code.c).
 - Arduino Uno Original
 - LED
 
@@ -46,9 +46,21 @@ Para mayor información ver ir a la carpeta de blink, [aquí](https://github.com
 [Arduino desde cero en Español - Capítulo 26 - Receptor Infrarrojo KY-022 + LED RGB (lector códigos)](https://www.youtube.com/watch?v=gPmsGyOuowI)
 [Código fuente](https://github.com/bitwiseAr/Curso-Arduino-desde-cero/blob/master/Capitulo26/Capitulo26-Programa1.txt)
 [Tutorial de lectura de infrarrojo y hexadecimal de ejemplo](https://naylampmechatronics.com/blog/36_tutorial-arduino-y-control-remoto-infrarrojo.html)
-Para mayor información ver ir a la carpeta de lectura de infrarrojo, [aquí](https://github.com/jpbalanIT/thesis/tree/main/thesis/arduino/projects/infrarrojo/code.c).
+Para mayor información ver ir a la carpeta de lectura de infrarrojo, [aquí](https://github.com/jpbalanIT/thesis/blob/main/thesis/arduino/projects/2-receptor-infrarrojo/code.c).
 - Arduino Uno Original
 - Infrarrojo Receptor Modelo KY-022
+
+#### Emisor de Infrarrojo
+[Encender TV con arduino y led infrarrojo](https://www.youtube.com/watch?v=SV6HtHokyd8)
+[Código fuente](https://github.com/srochar/Blog/blob/master/content/2014-04-30-Control-universal-con-arduino.-Utilizando-un-emisor-y-receptor-infrarrojo.md)
+[Conexiones](https://github.com/srochar/Blog/blob/master/content/imagenes/Control-universal-con-arduino.-Utilizando-un-emisor-y-recpetor-infrarrojo/led_emisor_conexion.png)
+[Tutorial de ayuda para recepción y emisión de infrarrojo](https://www.diarioelectronicohoy.com/blog/control-remoto-ir)
+[Tutorial de ayuda para emisión de infrarrojo](https://robots-argentina.com.ar/didactica/modulo-transmisor-de-infrarrojo-ky-005-kit-de-sensores-keyes-5/)
+Para mayor información ver ir a la carpeta de emisión de infrarrojo, [aquí](https://github.com/jpbalanIT/thesis/blob/main/thesis/arduino/projects/3-emisor-infrarrojo/code.c).
+- Arduino Uno Original
+- LED Infrarrojo emisor
+- Botón
+- Resistecia 1kΩ
 
 ###### Como Escribir un Readme en GitHub
 * Puedes encontrar todas las etiquetas, estilos y más en esta página de documentación a [GitHub.Readme](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text).

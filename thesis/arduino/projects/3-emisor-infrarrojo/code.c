@@ -6,6 +6,8 @@
  * https://github.com/srochar/Blog/blob/master/content/imagenes/Control-universal-con-arduino.-Utilizando-un-emisor-y-recpetor-infrarrojo/led_emisor_conexion.png
  * Complemento... leer
  * https://github.com/Arduino-IRremote/Arduino-IRremote/issues/580
+ * https://www.diarioelectronicohoy.com/blog/control-remoto-ir
+ * https://robots-argentina.com.ar/didactica/modulo-transmisor-de-infrarrojo-ky-005-kit-de-sensores-keyes-5/
 */
 
 
