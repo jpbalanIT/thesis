@@ -1,3 +1,13 @@
+/*
+ * Emisor de Infrarrojo
+ * https://www.youtube.com/watch?v=SV6HtHokyd8
+ * https://github.com/srochar/Blog/blob/master/content/2014-04-30-Control-universal-con-arduino.-Utilizando-un-emisor-y-receptor-infrarrojo.md
+ * https://github.com/srochar/Blog/tree/master/content/imagenes/Control-universal-con-arduino.-Utilizando-un-emisor-y-recpetor-infrarrojo
+ * https://github.com/srochar/Blog/blob/master/content/imagenes/Control-universal-con-arduino.-Utilizando-un-emisor-y-recpetor-infrarrojo/led_emisor_conexion.png
+ * Complemento... leer
+ * https://github.com/Arduino-IRremote/Arduino-IRremote/issues/580
+*/
+
 
 #include <IRremote.h>                       // Importar libreria IRremote
 
