@@ -51,13 +51,13 @@ void loop()
 IRsend irsend;
 void setup()
 {
-    Serial.begin(9600); // Initialize serial interface
+    Serial.begin(9600);         // Initialize serial interface
 }
 void loop() 
 {
-    for (int i = 0; i < 10; i++) { 
-       irsend.sendSony(0xa90, 12); // code for Sony TV power command
-       Serial.println("Enviado");              // Imprime por serial que fue enviado
-       delay(5000); // wait 5 seconds
-   }
+  for (int i = 0; i < 10; i++) { 
+    irsend.sendSony(0xa90, 12); // code for Sony TV power command
+    Serial.println("Enviado");  // Imprime por serial que fue enviado
+    delay(5000);                // wait 5 seconds
+  }
 }

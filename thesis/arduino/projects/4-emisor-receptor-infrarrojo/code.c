@@ -1,3 +1,8 @@
+/*
+ * Emisor y Receptor de Infrarrojo
+ * https://blog.uelectronics.com/tarjetas-desarrollo/como-utilizar-el-sensor-infrarrojo-emisor-ky-005-tutorial-funcionamiento/
+*/
+
 #include <IRremote.h>                   // Importar libreria IRremote
 
 int SENSOR = 11;                        // Sensor KY-022 en el pin digital 11  

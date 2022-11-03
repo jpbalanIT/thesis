@@ -68,6 +68,7 @@ Para mayor información ver ir a la carpeta de emisión de infrarrojo, [aquí](h
 - Arduino Uno Original
 - LEDs
 - Resistecias 1kΩ
+- KY-005
 
 ###### Como Escribir un Readme en GitHub
 * Puedes encontrar todas las etiquetas, estilos y más en esta página de documentación a [GitHub.Readme](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text).
