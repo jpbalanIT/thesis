@@ -62,6 +62,23 @@ Para mayor información ver ir a la carpeta de emisión de infrarrojo, [aquí](h
 - Botón
 - Resistecia 1kΩ
 
+#### Alexa, Arduino y LED
+
+- Alexa Echo Dot 3ra Generación
+- Arduino Uno Original
+- LEDs
+- Resistecias 1kΩ
+
 ###### Como Escribir un Readme en GitHub
 * Puedes encontrar todas las etiquetas, estilos y más en esta página de documentación a [GitHub.Readme](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#styling-text).
 * Puedes encontrar una manera fácil y sencilla de simular tu [Readme](https://pandao.github.io/editor.md/en.html).
+
+Control inteligente para la conectividad con dispositivos de entretenimiento para el hogar para transmitir instrucciones de voz por medio del asistente Alexa
+
+Control inteligente para la conectividad con dispositivos de oficina para el ambiente laboral para transmitir instrucciones de voz por medio del asistente Alexa
+
+Control inteligente para la conectividad con dispositivos de oficina para transmitir instrucciones de voz por medio del asistente Alexa
+
+Control inteligente para la conectividad con dispositivos de entretenimiento para el hogar de uso cotidiano para transmitir instrucciones de voz por medio del asistente Alexa
+
+Control inteligente para la conectividad con dispositivos de proyección, de aire acondicionado y audio para el hogar para transmitir instrucciones de voz por medio del asistente Alexa

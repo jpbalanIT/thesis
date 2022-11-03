@@ -39,3 +39,25 @@ void loop()
     digitalWrite(myLED, LOW);               // Apagar led cuando el botón ya no esta presionado
   }
 }
+
+
+/*
+ * Emisor de Infrarrojo
+ * https://arduinomodules.info/ky-005-infrared-transmitter-sensor-module/
+ * 
+*/
+
+#include <IRremote.h>
+IRsend irsend;
+void setup()
+{
+    Serial.begin(9600); // Initialize serial interface
+}
+void loop() 
+{
+    for (int i = 0; i < 10; i++) { 
+       irsend.sendSony(0xa90, 12); // code for Sony TV power command
+       Serial.println("Enviado");              // Imprime por serial que fue enviado
+       delay(5000); // wait 5 seconds
+   }
+}
